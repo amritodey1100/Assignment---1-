@@ -1,0 +1,99 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.banner-container{
+    background-image: url(assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.kid-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.text-container{
+    font-size: 31px;
+    font-weight: 520;
+    text-align: center;
+    margin: 15px;
+}
+
+.text-container p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+}
+
+.text-container button{
+    background-color: rgb(13, 19, 33);
+    color: white;
+    border-radius: 8px;
+    width: 190px;
+    height: 55px;
+    margin-top: 25px;
+}
+
+.card-container{
+    /* border: 2px solid red; */
+    width: 1340px;
+    height: 1395px;
+    margin: 125px auto;
+
+}
+
+.card-container h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    width: auto;
+    height: 39px;
+    margin: 80px auto;
+    margin-bottom: 26px;
+}
+
+.paragraph{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    padding: 0px 160px;
+}
+
+#card-content{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 148px;
+}
+
+.first-card{
+    display: flex;
+    margin: 50px 100px;
+}
+
+.rightside-content{
+    width: 55%;
+    padding: 15px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.leftside-content{
+    width: 45%;
+    margin-left: 320px ;
+}
+
+.btn-content{
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: 1px solid rgb(13, 19, 33);
+}
