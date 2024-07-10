@@ -261,3 +261,46 @@ font-weight: 400;
     margin-top: 30px;
     border-radius: 8px ;
 }
+
+.footer-style{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-details{
+    width: 1140px;
+    height: 36px;
+    margin: 35px auto;
+    display: flex;
+}
+
+.right-content{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.left-content{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.first{
+    margin-right: 10px;
+}
+
+.second{
+    margin-right: 10px;
+}
